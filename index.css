@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.display {
+    height: 400px;
+    background-color: #72487baf;
+    border: 20px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 10px white;
+}
+
+.label1 {
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 100px;
+    
+}
+
+.button1 {
+    margin-bottom: 150px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(239, 230, 239);
+    border-color: white;
+}
+
+.button1:hover {
+    background-color: rgb(106, 106, 223);
+    border-color: rgb(3, 0, 0);
+}
+
+.display2 {
+    height: 400px;
+    background-color: #ccc;
+    border: 20px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 10px white;
+}
+
+.label2 {
+    font-family: sans-serif ;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 1, 2);
+    margin-bottom: 75px;
+    padding-top: 20px;
+    
+}
+
+.button2 {
+    margin-bottom: 100px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(3, 0, 3);
+    border-color: rgb(3, 0, 0);
+}
+
+.button2:hover {
+    background-color: rgb(106, 106, 223);
+    border-color: aliceblue;
+}
+
+.insultdisplay {
+    background-color: #72487baf;
+    height: 50px;
+    width: 75%;
+    margin-bottom: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.insult {
+    padding-top: 8px;
+    font-family: sans-serif;
+    color: aliceblue;
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
